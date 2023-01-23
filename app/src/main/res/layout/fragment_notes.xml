@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesFragment"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_nameNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название заметки"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_dateNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата заметки"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+<TextView
+    android:id="@+id/tv_descriptionNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Краткое опиание"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"/>
+
+</FrameLayout>
