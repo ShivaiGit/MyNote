@@ -3,16 +3,16 @@ package ru.osmanov.mynote;
 import java.io.Serializable;
 
 public class Notes implements Serializable {
-    private String nameNote;
+    private String titleNote;
     private String descriptionNote;
     private String dataNote;
 
-    public String getNameNote() {
-        return nameNote;
+    public String getTitleNote() {
+        return titleNote;
     }
 
-    public void setNameNote(String nameNote) {
-        this.nameNote = nameNote;
+    public void setTitleNote(String titleNote) {
+        this.titleNote = titleNote;
     }
 
     public String getDescriptionNote() {
