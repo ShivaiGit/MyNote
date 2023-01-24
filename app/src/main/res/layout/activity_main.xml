@@ -55,7 +55,8 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="50dp"
             android:clickable="false"
-            app:srcCompat="@android:drawable/ic_input_add" />
+            app:srcCompat="@android:drawable/ic_input_add"
+            android:contentDescription="@string/txt_addButton"/>
 
     </RelativeLayout>
 

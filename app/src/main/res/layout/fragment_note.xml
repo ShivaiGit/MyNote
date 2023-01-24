@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textSize="30sp"
-        android:hint="Название заметки" />
+        android:hint="@string/txt_titleNoteInNote" />
 
     <TextView
         android:id="@+id/tv_dateNoteInNote"
@@ -20,6 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:textSize="30sp"
-        android:hint="Дата" />
+        android:hint="@string/txt_tv_dateNoteInNote" />
 
 </FrameLayout>

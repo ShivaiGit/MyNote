@@ -3,10 +3,13 @@ package ru.osmanov.mynote;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class MainActivity extends AppCompatActivity {
+
     private FloatingActionButton addNote;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,5 +24,9 @@ public class MainActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container5,noteFragment).addToBackStack("").commit();
 
         addNote = findViewById(R.id.addButton);
+        addNote.setOnClickListener(v -> {
+            Toast toast = Toast.makeText(MainActivity.this,"Добавление заметки",Toast.LENGTH_LONG);
+            toast.show();
+        });
     }
 }

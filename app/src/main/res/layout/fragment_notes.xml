@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:hint="Название заметки"
+        android:hint="@string/titleNotes"
         android:textSize="20sp" />
 
     <TextView
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_titleNotes"
         android:layout_marginTop="8dp"
-        android:hint="Дата заметки"
+        android:hint="@string/dateNotes"
         android:textSize="20sp" />
 
     <TextView
@@ -30,16 +30,17 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_dateNotes"
         android:layout_marginTop="8dp"
-        android:hint="Описание"
+        android:hint="@string/descriptionNotes"
         android:textSize="20sp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/deleteButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:clickable="false"
-        android:src="@android:drawable/ic_menu_delete" />
+        android:src="@android:drawable/ic_menu_delete"
+        android:contentDescription="@string/txt_deleteButton"/>
 
 </RelativeLayout>

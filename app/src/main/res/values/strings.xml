@@ -2,4 +2,11 @@
     <string name="app_name">My Note</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titleNotes">Название заметки</string>
+    <string name="dateNotes">Дата заметки</string>
+    <string name="descriptionNotes">Описание</string>
+    <string name="txt_addButton">Добавить заметку</string>
+    <string name="txt_deleteButton">Удаление заметки</string>
+    <string name="txt_titleNoteInNote">Название заметки</string>
+    <string name="txt_tv_dateNoteInNote">Дата</string>
 </resources>
