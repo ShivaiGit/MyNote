@@ -8,7 +8,7 @@
     tools:context=".NotesFragment">
 
     <TextView
-        android:id="@+id/tv_nameNotes"
+        android:id="@+id/tv_titleNotes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -19,7 +19,7 @@
         android:id="@+id/tv_dateNotes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_nameNotes"
+        android:layout_below="@id/tv_titleNotes"
         android:layout_marginTop="8dp"
         android:hint="Дата заметки"
         android:textSize="20sp" />
@@ -34,12 +34,12 @@
         android:textSize="20sp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
+        android:id="@+id/deleteButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:clickable="true"
+        android:clickable="false"
         android:src="@android:drawable/ic_menu_delete" />
 
 </RelativeLayout>

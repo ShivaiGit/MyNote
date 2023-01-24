@@ -7,6 +7,7 @@
     android:scrollbars="none">
 
     <RelativeLayout
+        android:id="@+id/relative_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
@@ -39,11 +40,18 @@
             android:layout_below="@id/fragment_container3"
             android:layout_marginTop="8dp" />
 
+        <FrameLayout
+            android:id="@+id/fragment_container5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/fragment_container4"
+            android:layout_marginTop="8dp" />
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton"
+            android:id="@+id/addButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/fragment_container4"
+            android:layout_below="@id/fragment_container5"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="50dp"
             android:clickable="false"
